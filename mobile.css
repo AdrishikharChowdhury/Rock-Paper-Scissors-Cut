@@ -1,0 +1,103 @@
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    #heading {
+        height: 5rem;
+        font-size: 1rem;
+        padding: 1.5rem;
+        width: 100%;
+        max-width: 35rem;
+    }
+
+    .choices {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .choice {
+        height: 9rem;
+        width: 9rem;
+    }
+
+    .score-board {
+        justify-content: space-evenly;
+        flex-direction: row;
+        height: 10rem;
+        width: 70%;
+        font-size: 4vmin;
+        gap: 3rem;
+        padding: 1rem;
+    }
+
+    .number {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-left: 0;
+    }
+
+    #msg, .win, .lose {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 4rem;
+        width: 8rem;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        gap: 2rem;
+    }
+
+    #heading{
+        height: 6rem;
+        width: 100%;
+        padding: 2rem;
+        font-size: 1rem;
+    }
+
+    .choices {
+        flex-direction: column;
+        height: 30rem;
+        gap: 1rem;
+    }
+
+    .choice {
+        height: 7.5rem;
+        width: 7.5rem;
+    }
+
+    .score-board {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 5rem;
+        height: 8rem;
+        width: 80%;
+        font-size: 4.5vmin;
+    }
+
+    .number {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    #msg, .win, .lose, .default-msg {
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 1rem;
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+}

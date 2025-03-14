@@ -1,0 +1,76 @@
+.dark-mode {
+    background-color: #1E1E1E; 
+    color: #E8F0FF; 
+}
+
+.dark-mode #heading {
+    background-color: #3A0E02; 
+    color: #FFD700; 
+    box-shadow: 5px 5px 10px rgba(255, 215, 0, 0.3); 
+}
+
+.dark-mode .choices {
+    background-color: #1A2A40; 
+    box-shadow: 5px 5px 10px rgba(255, 215, 0, 0.3);
+}
+
+.dark-mode .choice {
+    background-color: #444; 
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode .score-board {
+    background-color: #0F2027; 
+    color: #FFD700;
+    box-shadow: 5px 5px 10px rgba(255, 215, 0, 0.3);
+}
+
+.dark-mode #msg, .dark-mode .default-msg {
+    background-color: #3A0E02; 
+    color: #FFD700; 
+    box-shadow: 5px 5px 10px rgba(255, 215, 0, 0.3);
+    border: 2px solid #FFD700;
+}
+
+.dark-mode button {
+    background-color: #333;
+    color: #FFD700;
+    border: 2px solid #FFD700;
+}
+
+.dark-mode button:active {
+    transform: scale(0.9);
+    transition: transform 0.1s ease-in-out;
+}
+
+.dark-mode .win{
+    color: #E8F0FF;
+    background-color: #1B5E20;
+}
+
+.dark-mode .lose{
+    color: #E8F0FF;
+    background-color: #D32F2F;
+}
+
+.dark-mode #reset {
+    background-color: #0F2027; 
+    color: #FFD700; 
+    border: 2px solid #FFD700;
+    box-shadow: 5px 5px 10px rgba(255, 215, 0, 0.3);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.dark-mode #reset:hover {
+    background-color: #000000;
+}
+
+.dark-mode #reset:active {
+    transform: scale(0.95);
+}
+
+.dark-mode .comp-selected {
+    border: 5px solid red;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+    transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}

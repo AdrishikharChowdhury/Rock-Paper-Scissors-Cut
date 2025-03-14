@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="dark mode.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <header>
+        <button id="heading">
+            <h1>Rock Paper Scissors</h1>
+        </button>
+    </header>
+    <div class="choices">
+        <button class="choice" id="rock">
+            <div class="pic1"></div>
+        </button>
+        <button class="choice" id="paper">
+            <div class="pic2"></div>
+        </button>
+        <button class="choice" id="scissors">
+            <div class="pic3"></div>
+        </button>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <ul>
+                <li><p class="user-score number">0</p></li>
+                <li><p>Player</p></li>
+            </ul>
+        </div>
+        <div class="score">
+            <ul>
+                <li><p class="comp-score number">0</p></li>
+                <li><p>Comp.</p></li>
+            </ul>
+        </div>
+    </div>
+    <button id="reset">Reset score</button>
+    <div class="msg-container">
+        <p id="msg" class="default-msg">Play your Move</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
