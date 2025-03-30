@@ -1,3 +1,5 @@
+console.log("app.js is running");
+
 let toggleBtn=document.querySelector("#heading");
 let userScore=0;
 let compScore=0;
