@@ -100,4 +100,4 @@ if (window.location.hostname === "adrishikharchowdhury.github.io") {
     const baseTag = document.createElement("base");
     baseTag.href = "/Stone-Paper-Scissors-Cut/";
     document.head.appendChild(baseTag);
-  }
+}
