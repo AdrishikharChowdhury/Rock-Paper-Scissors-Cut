@@ -95,3 +95,9 @@ const genCompChoice=()=>{
     let idx=Math.floor(Math.random()*3);
     return options[idx];
 }
+
+if (window.location.hostname === "adrishikharchowdhury.github.io") {
+    const baseTag = document.createElement("base");
+    baseTag.href = "/Stone-Paper-Scissors-Cut/";
+    document.head.appendChild(baseTag);
+  }
