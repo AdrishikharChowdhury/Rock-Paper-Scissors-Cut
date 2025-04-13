@@ -100,6 +100,6 @@ const genCompChoice=()=>{
 
 if (window.location.hostname === "adrishikharchowdhury.github.io") {
     const baseTag = document.createElement("base");
-    baseTag.href = "/Stone-Paper-Scissors-Cut/";
+    baseTag.href = "/Stone-Paper-Scissors-Cut/docs/";
     document.head.appendChild(baseTag);
 }
