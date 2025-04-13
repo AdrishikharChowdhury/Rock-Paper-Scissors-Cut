@@ -27,7 +27,7 @@ Both versions allow you to play against the computer using classic rules.
 
 ### File Structure 📁
 ```
-web/
+docs/
 │── index.html          # Main game file
 │── app.js              # Game logic
 │── style.css           # Main styling
