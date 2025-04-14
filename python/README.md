@@ -1,4 +1,4 @@
-[text](README.md)# ✊🖐✌ Rock Paper Scissors – Terminal Edition
+# ✊🖐✌ Rock Paper Scissors – Terminal Edition
 
 ## 🎮 Overview
 
