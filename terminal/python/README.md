@@ -1,4 +1,4 @@
-# ✊🖐✌ Rock Paper Scissors – Terminal Edition
+# ✊🖐✌ Rock Paper Scissors – Python edition
 
 ## 🎮 Overview
 
